@@ -1,4 +1,6 @@
 import React from "react";
+import PropTypes from "prop-types";
+
 
 function Follower(props){
   return (
@@ -19,6 +21,10 @@ function Follower(props){
     </div>
 
   );
+}
+
+Follower.propTypes = {
+  name: PropTypes.string
 }
 
 export default Follower;
