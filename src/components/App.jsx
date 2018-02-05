@@ -9,7 +9,6 @@ function App(){
       <hr></hr>
       <Content />
     </div>
-
   );
 }
 
