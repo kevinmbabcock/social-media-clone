@@ -1,5 +1,5 @@
-import React from "react";
-import PropTypes from "prop-types";
+import React from 'react';
+import PropTypes from 'prop-types';
 
 
 function Follower(props){
@@ -25,6 +25,6 @@ function Follower(props){
 
 Follower.propTypes = {
   name: PropTypes.string
-}
+};
 
 export default Follower;
