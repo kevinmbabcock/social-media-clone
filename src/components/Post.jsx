@@ -5,7 +5,7 @@ import LikeButton from './LikeButton';
 
 
 function Post(props){
-console.log(props)
+  
 
   return (
     <div>

@@ -43,6 +43,7 @@ class Content extends React.Component {
     this.setState({masterPostList: newMasterPostList});
   }
 
+
   render() {
     return (
       <div>
@@ -61,5 +62,7 @@ class Content extends React.Component {
     );
   }
 }
+
+
 
 export default Content;
